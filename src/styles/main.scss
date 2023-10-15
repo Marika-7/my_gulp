@@ -1,0 +1,25 @@
+@import 'base/reset';
+// @import 'base/fonts';
+// @import 'base/variables';
+// @import 'base/mixins';
+@import 'components/header';
+@import 'components/footer';
+@import 'components/test';
+// @import 'components/text';
+// @import 'components/buttons';
+// @import 'components/form';
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  // background-color: $white;
+  // color: $black;
+}
+
+.main {
+  height: calc(100vh - 200px);
+  background-color: $test-bi;
+}
+
+h1{
+  color: $test-v;
+}
